@@ -1,0 +1,15 @@
+# Este arquivo não é necessário para projetos Maven
+# Todas as dependências estão definidas no arquivo pom.xml
+
+# Instruções de instalação:
+# Para instalar todas as dependências, execute:
+# mvn clean install
+#
+# Para executar a aplicação:
+# mvn spring-boot:run
+#
+# Para construir o projeto:
+# mvn package
+#
+# Para executar os testes:
+# mvn test

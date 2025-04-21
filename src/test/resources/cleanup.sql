@@ -1,0 +1,13 @@
+-- Clean up tables in the correct order to avoid foreign key constraints
+TRUNCATE TABLE product_tags CASCADE;
+TRUNCATE TABLE order_items CASCADE;
+TRUNCATE TABLE shipping_info CASCADE;
+TRUNCATE TABLE order_payments CASCADE;
+TRUNCATE TABLE orders CASCADE;
+TRUNCATE TABLE products CASCADE;
+TRUNCATE TABLE tags CASCADE;
+TRUNCATE TABLE categories CASCADE;
+TRUNCATE TABLE stores CASCADE;
+TRUNCATE TABLE user_roles CASCADE;
+TRUNCATE TABLE roles CASCADE;
+TRUNCATE TABLE users CASCADE; 
