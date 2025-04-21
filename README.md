@@ -1,4 +1,3 @@
-```markdown
 # 🛍️ Sales API - Plataforma de Marketplace Completa
 
 **Uma solução robusta para e-commerce com gestão de lojas, produtos, pedidos e usuários**
@@ -99,11 +98,11 @@ Content-Type: application/json
 
 ## 📚 Documentação da API
 
-Endpoint | Descrição
----|---
-`GET /api/products` | Listar todos os produtos
-`POST /api/orders` | Criar novo pedido
-`PUT /api/users/{id}` | Atualizar usuário
+| Endpoint | Descrição |
+|---|---|
+| `GET /api/products` | Listar todos os produtos |
+| `POST /api/orders` | Criar novo pedido |
+| `PUT /api/users/{id}` | Atualizar usuário |
 
 ## 💡 Funcionalidades Principais
 
@@ -128,13 +127,11 @@ PENDENTE → PAGO → EM_TRANSITO → ENTREGUE
 
 ## 🛡️ Modelo de Segurança
 
-Role | Permissões
----|---
-USER | Gerenciar próprio perfil/pedidos
-SELLER | Gerenciar lojas/produtos
-ADMIN | Acesso completo ao sistema
+| Role | Permissões |
+|---|---|
+| USER | Gerenciar próprio perfil/pedidos |
+| SELLER | Gerenciar lojas/produtos |
+| ADMIN | Acesso completo ao sistema |
 
 
-**Desenvolvido por [Yank Machado]**  
-[@yank-machado] (https://github.com/yank-machado)
-```
+**Desenvolvido por [Yank Machado](https://github.com/yank-machado)**
